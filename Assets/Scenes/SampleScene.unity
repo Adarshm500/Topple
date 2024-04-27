@@ -1558,6 +1558,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1547247838558931692, guid: 44a46f0d5cd601247a853d7a5bafcdd1,
+        type: 3}
+      propertyPath: layerMask.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 5955292919279290503, guid: 44a46f0d5cd601247a853d7a5bafcdd1,
         type: 3}
       propertyPath: m_Name

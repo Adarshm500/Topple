@@ -12,6 +12,8 @@ public class PawnMovementController : MonoBehaviour
     [SerializeField] Pawn pawn;
     private static Pawn selectedPawn;
 
+    private Rigidbody pawnRigidbody;
+
     public event EventHandler<OnSelectedPawnChangedEventArgs> OnSelectedPawnChanged;
     public class OnSelectedPawnChangedEventArgs : EventArgs 
     {
@@ -22,6 +24,7 @@ public class PawnMovementController : MonoBehaviour
     private void Start()
     {
         mainCamera = Camera.main;
+        pawnRigidbody = GetComponent<Rigidbody>();
     }
 
     private void Update()
@@ -36,6 +39,7 @@ public class PawnMovementController : MonoBehaviour
         {
             RaycastHit hit;
             Ray ray = mainCamera.ScreenPointToRay(Input.mousePosition);
+            DisableRigidbody();
 
             if (Physics.Raycast(ray, out hit, Mathf.Infinity))
             {
@@ -52,6 +56,7 @@ public class PawnMovementController : MonoBehaviour
         {
             isMouseDown = false;
             SelectedPawn(null);
+            EnableRigidbody();
         }
 
         if (isMouseDown && selectedPawn == pawn)
@@ -85,4 +90,21 @@ public class PawnMovementController : MonoBehaviour
             selectedPawn = pawn
         });
     }
+
+    private void DisableRigidbody()
+    {
+        if (pawnRigidbody != null)
+        {
+            pawnRigidbody.isKinematic = true;
+        }
+    }
+
+    private void EnableRigidbody()
+    {
+        if (pawnRigidbody != null)
+        {
+            pawnRigidbody.isKinematic = false;
+        }
+    }
+
 }
