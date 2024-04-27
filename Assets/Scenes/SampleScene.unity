@@ -146,7 +146,7 @@ PrefabInstance:
     - target: {fileID: 5955292919279290503, guid: 44a46f0d5cd601247a853d7a5bafcdd1,
         type: 3}
       propertyPath: m_Name
-      value: Poopli (4)
+      value: Pawn4
       objectReference: {fileID: 0}
     - target: {fileID: 7675403476976137512, guid: 44a46f0d5cd601247a853d7a5bafcdd1,
         type: 3}
@@ -363,7 +363,7 @@ PrefabInstance:
     - target: {fileID: 5955292919279290503, guid: 44a46f0d5cd601247a853d7a5bafcdd1,
         type: 3}
       propertyPath: m_Name
-      value: Poopli (7)
+      value: Pawn7
       objectReference: {fileID: 0}
     - target: {fileID: 7675403476976137512, guid: 44a46f0d5cd601247a853d7a5bafcdd1,
         type: 3}
@@ -420,50 +420,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 44a46f0d5cd601247a853d7a5bafcdd1, type: 3}
---- !u!1 &360480682
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 360480683}
-  - component: {fileID: 360480684}
-  m_Layer: 0
-  m_Name: PawnInteractionManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &360480683
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 360480682}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &360480684
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 360480682}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 031ee3091539d004e8b373a0e4673103, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -605,7 +561,7 @@ PrefabInstance:
     - target: {fileID: 5955292919279290503, guid: 44a46f0d5cd601247a853d7a5bafcdd1,
         type: 3}
       propertyPath: m_Name
-      value: Poopli (5)
+      value: Pawn5
       objectReference: {fileID: 0}
     - target: {fileID: 7675403476976137512, guid: 44a46f0d5cd601247a853d7a5bafcdd1,
         type: 3}
@@ -673,7 +629,7 @@ PrefabInstance:
     - target: {fileID: 5955292919279290503, guid: 44a46f0d5cd601247a853d7a5bafcdd1,
         type: 3}
       propertyPath: m_Name
-      value: Poopli (12)
+      value: Pawn12
       objectReference: {fileID: 0}
     - target: {fileID: 7675403476976137512, guid: 44a46f0d5cd601247a853d7a5bafcdd1,
         type: 3}
@@ -741,7 +697,7 @@ PrefabInstance:
     - target: {fileID: 5955292919279290503, guid: 44a46f0d5cd601247a853d7a5bafcdd1,
         type: 3}
       propertyPath: m_Name
-      value: Poopli (9)
+      value: Pawn9
       objectReference: {fileID: 0}
     - target: {fileID: 7675403476976137512, guid: 44a46f0d5cd601247a853d7a5bafcdd1,
         type: 3}
@@ -815,7 +771,7 @@ PrefabInstance:
     - target: {fileID: 5955292919279290503, guid: 44a46f0d5cd601247a853d7a5bafcdd1,
         type: 3}
       propertyPath: m_Name
-      value: Poopli (6)
+      value: Pawn6
       objectReference: {fileID: 0}
     - target: {fileID: 7675403476976137512, guid: 44a46f0d5cd601247a853d7a5bafcdd1,
         type: 3}
@@ -933,7 +889,7 @@ PrefabInstance:
     - target: {fileID: 5955292919279290503, guid: 44a46f0d5cd601247a853d7a5bafcdd1,
         type: 3}
       propertyPath: m_Name
-      value: Poopli (3)
+      value: Pawn3
       objectReference: {fileID: 0}
     - target: {fileID: 6678875238902174155, guid: 44a46f0d5cd601247a853d7a5bafcdd1,
         type: 3}
@@ -1111,7 +1067,7 @@ PrefabInstance:
     - target: {fileID: 5955292919279290503, guid: 44a46f0d5cd601247a853d7a5bafcdd1,
         type: 3}
       propertyPath: m_Name
-      value: Poopli (1)
+      value: Pawn1
       objectReference: {fileID: 0}
     - target: {fileID: 7675403476976137512, guid: 44a46f0d5cd601247a853d7a5bafcdd1,
         type: 3}
@@ -1185,7 +1141,7 @@ PrefabInstance:
     - target: {fileID: 5955292919279290503, guid: 44a46f0d5cd601247a853d7a5bafcdd1,
         type: 3}
       propertyPath: m_Name
-      value: Poopli (11)
+      value: Pawn11
       objectReference: {fileID: 0}
     - target: {fileID: 7675403476976137512, guid: 44a46f0d5cd601247a853d7a5bafcdd1,
         type: 3}
@@ -1253,7 +1209,7 @@ PrefabInstance:
     - target: {fileID: 5955292919279290503, guid: 44a46f0d5cd601247a853d7a5bafcdd1,
         type: 3}
       propertyPath: m_Name
-      value: Poopli (13)
+      value: Pawn13
       objectReference: {fileID: 0}
     - target: {fileID: 7675403476976137512, guid: 44a46f0d5cd601247a853d7a5bafcdd1,
         type: 3}
@@ -1321,12 +1277,12 @@ PrefabInstance:
     - target: {fileID: 5955292919279290503, guid: 44a46f0d5cd601247a853d7a5bafcdd1,
         type: 3}
       propertyPath: m_Name
-      value: Poopli (2)
+      value: Pawn2
       objectReference: {fileID: 0}
     - target: {fileID: 7675403476976137512, guid: 44a46f0d5cd601247a853d7a5bafcdd1,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.15
+      value: 0.14
       objectReference: {fileID: 0}
     - target: {fileID: 7675403476976137512, guid: 44a46f0d5cd601247a853d7a5bafcdd1,
         type: 3}
@@ -1336,7 +1292,7 @@ PrefabInstance:
     - target: {fileID: 7675403476976137512, guid: 44a46f0d5cd601247a853d7a5bafcdd1,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.37
+      value: -0.49
       objectReference: {fileID: 0}
     - target: {fileID: 7675403476976137512, guid: 44a46f0d5cd601247a853d7a5bafcdd1,
         type: 3}
@@ -1389,7 +1345,7 @@ PrefabInstance:
     - target: {fileID: 5955292919279290503, guid: 44a46f0d5cd601247a853d7a5bafcdd1,
         type: 3}
       propertyPath: m_Name
-      value: Poopli (10)
+      value: Pawn10
       objectReference: {fileID: 0}
     - target: {fileID: 7675403476976137512, guid: 44a46f0d5cd601247a853d7a5bafcdd1,
         type: 3}
@@ -1463,7 +1419,7 @@ PrefabInstance:
     - target: {fileID: 5955292919279290503, guid: 44a46f0d5cd601247a853d7a5bafcdd1,
         type: 3}
       propertyPath: m_Name
-      value: Poopli (8)
+      value: Pawn8
       objectReference: {fileID: 0}
     - target: {fileID: 7675403476976137512, guid: 44a46f0d5cd601247a853d7a5bafcdd1,
         type: 3}
@@ -1672,6 +1628,5 @@ SceneRoots:
   - {fileID: 832575519}
   - {fileID: 2633904435244448418}
   - {fileID: 594640039}
-  - {fileID: 360480683}
   - {fileID: 2884903940314364314}
   - {fileID: 827764366}
