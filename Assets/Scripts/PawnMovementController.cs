@@ -39,7 +39,6 @@ public class PawnMovementController : MonoBehaviour
         {
             RaycastHit hit;
             Ray ray = mainCamera.ScreenPointToRay(Input.mousePosition);
-            DisableRigidbody();
 
             if (Physics.Raycast(ray, out hit, Mathf.Infinity))
             {
@@ -48,6 +47,8 @@ public class PawnMovementController : MonoBehaviour
                 {
                     selectedPawn = pawnHit;
                     isMouseDown = true;
+                    DisableRigidbody();
+                    ResetPawnRotation();
                     SelectedPawn(pawnHit);
                 }
             }
@@ -104,6 +105,14 @@ public class PawnMovementController : MonoBehaviour
         if (pawnRigidbody != null)
         {
             pawnRigidbody.isKinematic = false;
+        }
+    }
+
+    private void ResetPawnRotation()
+    {
+        if (selectedPawn == pawn)
+        {
+            transform.rotation = Quaternion.identity;
         }
     }
 
